@@ -10,11 +10,11 @@ function App() {
 
   return (
     <BrowserRouter>
-    <nav>
+    <nav className='nav-bar'>
      <Link to="/">Home</Link>
-     <Link to="/about">About</Link>
-     <Link to="/contact">Contact</Link>
-     <Link to="/portfolio">Portfolio</Link>
+     <Link to="/about">About us</Link>
+     <Link to="/portfolio">Our Work</Link>
+     <Link to="/contact">Get a Quote</Link>
     </nav>
     <Routes>
       <Route path="/" element={<HomePage/> }/>
