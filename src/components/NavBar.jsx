@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import '../style/NavBar.css'
+import logo from '../images/ariastoneworks_logo.png'
+
 export default function NavBar() {
   return (
     <nav className="nav-bar">
       <div className="nav-logo">
-        <Link to="/">LOGO HOLDER</Link>
+        <Link to="/"><img src={logo}></img></Link>
       </div>
 
       <div className="nav-links">
