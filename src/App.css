@@ -20,7 +20,7 @@
   color: inherit;
 }
 
-.nav-links a:hover {
+.link-text:hover {
   color: var(--secondaryColour);
 }
 
@@ -34,5 +34,5 @@
 
 .quote-button:hover {
   background-color: var(--secondaryColour);
-  color: white;
+
 }

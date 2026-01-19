@@ -1,8 +1,13 @@
-
+import hero_background from '../images/hero_background.jpg'
+import NavBar from "../components/NavBar";
+import '../style/About.css'
 export default function HomePage() {
     return (
         <>
-        <p>test1</p>
+        <div className='hero-container'>
+        <NavBar/>
+
+        </div>
         </>
     )
 }

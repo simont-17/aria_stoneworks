@@ -8,9 +8,9 @@ export default function NavBar() {
       </div>
 
       <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/about">About us</Link>
-        <Link to="/portfolio">Our Work</Link>
+        <Link to="/" className="link-text">Home</Link>
+        <Link to="/about" className="link-text"> About us</Link>
+        <Link to="/portfolio" className="link-text">Our Work</Link>
         <Link to="/contact" className="quote-button">
           Get a Quote
         </Link>
