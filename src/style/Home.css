@@ -18,10 +18,7 @@
     font-family: var(--primaryFont), serif;
     margin: auto 0;
     transform: translateY(-20%);
-}
-
-.hero-text-container p, h1 {
-      justify-self: center;
+    justify-items: center;
 }
 
 .hero-text-container h1 {
@@ -31,4 +28,34 @@
 .hero-text-container p {
     font-size: 1.25rem;
     font-weight: lighter;
+}
+
+.hero-button-container {
+    padding-top: 1rem;
+}
+
+.hero-button-container a {
+    font-weight: lighter;
+    font-size: 1rem;
+    color: white;
+    border: 0px;
+    margin: 1rem;
+    background-color: transparent;
+    text-decoration: none;
+}
+.hero-button-container a:hover {
+    color: var(--primaryColour)
+}
+
+
+.hero-button-container .hero-contact-button {
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+.hero-button-container .hero-contact-button:hover {
+    border: 1px solid white;
+    padding: 10px;
+    opacity: 50%;
 }
