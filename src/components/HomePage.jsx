@@ -1,6 +1,8 @@
 
 import NavBar from "../components/NavBar";
+import Carousel from "../components/EmblaCarousel";
 import { Link } from "react-router-dom";
+
 
 import '../style/Home.css'
 export default function HomePage() {
@@ -16,6 +18,12 @@ export default function HomePage() {
                     <Link to="/contact" className="hero-contact-button">Contact Us</Link>
                 </div>
             </div>
+
+        </div>
+        <div className='carousel-container'>
+            <Carousel/>
+        </div>
+        <div className='hero-about-container'>
 
         </div>
         </>

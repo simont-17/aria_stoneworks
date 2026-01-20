@@ -51,11 +51,22 @@
 .hero-button-container .hero-contact-button {
     border: 1px solid white;
     padding: 10px;
-
+    border-radius: 6.8px;
 }
 
 .hero-button-container .hero-contact-button:hover {
     border: 1px solid white;
     padding: 10px;
-    opacity: 50%;
+}
+
+.carousel-container {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-about-container {
+    height: 100vh;
 }
