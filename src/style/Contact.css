@@ -1,0 +1,13 @@
+.contact-hero-container {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url(../images/pexels-houzlook-3926542.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+
+}
