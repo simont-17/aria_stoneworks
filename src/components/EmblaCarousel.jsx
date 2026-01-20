@@ -13,24 +13,24 @@ export default function EmblaCarousel() {
             <div className="embla__content">
                 <div className='embla__image__container'><img src={logo}></img></div>
           
-                <h2>test1</h2>
-                <p>test2</p>
+                {/* <h2>test1</h2>
+                <p>test2</p> */}
             </div>
         </div>
          <div className="embla__slide">
             <div className="embla__content">
                 <div className='embla__image__container'><img src={logo}></img></div>
           
-                <h2>test1</h2>
-                <p>test2</p>
+                {/* <h2>test1</h2>
+                <p>test2</p> */}
             </div>
         </div>
          <div className="embla__slide">
             <div className="embla__content">
                 <div className='embla__image__container'><img src={logo}></img></div>
           
-                <h2>test1</h2>
-                <p>test2</p>
+                {/* <h2>test1</h2>
+                <p>test2</p> */}
             </div>
         </div>
       </div>
