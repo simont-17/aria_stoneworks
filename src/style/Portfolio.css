@@ -1,0 +1,27 @@
+
+.portfolio-hero-container {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url(../images/hero_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.portfolio-hero-text-container {
+    color: white;
+    font-family: var(--primaryFont), serif;
+    margin: auto 0;
+    transform: translateY(-20%);
+    justify-items: center;
+}
+
+.portfolio-hero-text-container h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
