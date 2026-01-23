@@ -25,3 +25,33 @@
     font-size: 3rem;
     font-weight: bolder;
 }
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gallery-row-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+}
+
+.gallery-column {
+    width: 33%;
+}
+
+.gallery-column img {
+    width: 90%;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+
+
+.gallery-column-2 img:first-child {
+    padding-top: 5rem;
+}
