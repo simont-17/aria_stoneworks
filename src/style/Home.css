@@ -28,6 +28,7 @@
 .hero-text-container p {
     font-size: 1.25rem;
     font-weight: lighter;
+    text-align: center;
 }
 
 .hero-button-container {
@@ -69,4 +70,9 @@
 
 .hero-about-container {
     height: 100vh;
+}
+
+.carousel-container {
+  height: 40rem;
+
 }

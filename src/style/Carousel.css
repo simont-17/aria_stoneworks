@@ -1,28 +1,34 @@
+
+
 .embla {
+
   overflow: hidden;
   max-width: 100%;
 
 }
 .embla__container {
   display: flex;
-  width: 50rem;
+  width: 100rem;
   justify-content: start;
 
 }
 .embla__slide {
   flex: 0 0 60%;
-  min-width: 0;
-  padding: 10px;
+  min-width: 100;
+  padding: 1rem;
+
+
   
 }
 
 
 .embla__content {
-  height: 16rem;
+  height: 30rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
+
 
 }
 .embla__image__container {
