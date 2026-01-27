@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 1rem;
 }
 
 .footer-logo {
@@ -11,5 +12,7 @@
 }
 
 .footer-bar a {
-    margin:0.75rem;
+    margin:0.5rem;
+    color: rgb(128, 127, 127);
+    font-size: 1rem;
 }
