@@ -1,0 +1,15 @@
+.footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.footer-bar a {
+    margin:0.75rem;
+}

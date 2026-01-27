@@ -5,6 +5,7 @@ import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import PortfolioPage from "./components/PortfolioPage";
 import ContactPage from "./components/ContactPage";
+import Footer from "./components/FooterBar";
 import "./App.css";
 import { BrowserRouter} from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/portfolio" element={<PortfolioPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
