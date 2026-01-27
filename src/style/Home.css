@@ -86,6 +86,7 @@
 .home-about-images {
   position: relative;
   min-height: 30rem;
+  margin-left: 50%;
 }
 
 .home-about-images .img {
@@ -131,5 +132,24 @@
     top: 0;
     left: 0;
     margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-about {
+    grid-template-columns: 1fr;
+  }
+
+  .img-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .home-about-images {
+    min-height: auto;
+    margin-left: 0;
+    width: 100%;
   }
 }
