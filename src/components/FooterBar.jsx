@@ -14,7 +14,7 @@ export default function FooterBar() {
                 <Link to="/" className="link-text">Home</Link>
                 <Link to="/about" className="link-text"> About us</Link>
                 <Link to="/portfolio" className="link-text">Our Work</Link>
-                <Link to="/contact" >Contact</Link>
+                <Link to="/contact" className="link-text" >Contact</Link>
             </div>
         </nav>
          <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
