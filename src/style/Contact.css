@@ -19,12 +19,30 @@ body {
     font-family: Roboto;
 }
 
+
+
+input {
+    height: 2.5em;
+    border: 1px solid rgb(164, 163, 163);
+
+}
+
+.msgInput {
+    border: 1px solid rgb(164, 163, 163);
+
+}
+
 .contact-us-box {
-    height: 800px;
+    height: 100%;
+    background-color: rgba(254, 255, 254, 0.25);
+    backdrop-filter: blur(3px);
+}
+
+form {
+    opacity: 1;
 }
 
 .contact-us-text {
     height: 100%;
-    border-right-style: solid;
-    border-right-width: 2px;
+    ;
 }
